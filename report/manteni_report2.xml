@@ -1,0 +1,90 @@
+<odoo>
+    <data>
+        <report
+            id="report_workorder"
+            model="manteni.workorder"
+            string="Workorder Report"
+            name="manteni.report_workorder_view"
+            file="manteni.report_workorder"
+            report_type="qweb-pdf" />
+        <template id="report_workorder_view">
+            <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+            <t t-call="web.external_layout">
+            <div class="page">
+                <h2><center>
+                    <span>Workorder: </span>
+                    <span t-field="doc.name"/>
+                </center></h2>
+                <div class="row mt32 mb32">
+                    <div class="col col-3 offset-9 text-right">
+                        <strong>Workorder no:</strong>
+                        <span t-field="doc.id"/>
+                    </div>
+                </div>
+
+                <div class="border p-2">
+                    <t t-if="doc.type == 'preventive'">
+                        <div><strong>Maintenance type: </strong>Preventive</div>
+                        <div><strong>Program: </strong><span t-field="doc.program_id"/></div>
+                    </t>
+                    <t t-else=""><div><strong>Maintenance type: </strong>Corrective</div></t>
+
+                    <div>
+                        <strong>Employee:</strong>
+                        <span t-field="doc.employee_id"/>
+                    </div>
+                </div>
+                <div class="mt32 mb32">
+                    <strong>Open date: </strong>
+                    <p t-field="doc.date_begin"/>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                                <th>Machines</th>
+                        </tr>
+                    </thead>
+                    <tbody class="invoice_tbody">
+                        <tr t-foreach="doc.machine_ids" t-as="machine">
+                            <td><span t-field="machine.name"/></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="row mt32 mb32">
+                    <div class="col-xs-12">
+                        <strong>Description</strong>
+                        <p t-field="doc.description"/>
+                    </div>
+                </div>
+                <div class="border p-2">
+                    <div class="mt32 mb32" t-if="doc.date_end">
+                        <strong>Close date:</strong>
+                         <p t-field="doc.date_end"/>
+                   </div>
+                   <div class="mt32 mb32" t-if="doc.closing_info">
+                        <div class="col-xs-12">
+                            <strong>Closing text</strong>
+                            <p t-field="doc.closing_info"/>
+                        </div>
+                   </div>
+                </div>
+               <div class="row mt64 mb32">
+                    <div class="col">
+                        <strong>Worker's signature</strong>
+                        <div t-field="doc.employee_id"/>
+                    </div>
+
+                    <div class="col text-right">
+                        <strong>Manager's signature</strong>
+                        <div> </div>
+                    </div>
+               </div>
+
+            </div>
+            </t>
+            </t>
+            </t>
+        </template>
+    </data>
+</odoo>
