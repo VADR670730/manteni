@@ -20,7 +20,6 @@ class Machine(models.Model):
 
     _sql_constraints = [('name_uniq', 'unique (name)', "Title name already exists !"), ('serial_uniq', 'unique (serial)', "Serial code already exists !")]
 
-    @api.multi
     def _maintenance_date(self):
         for record in self:
             fecha=record.date_begin

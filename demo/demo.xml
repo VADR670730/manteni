@@ -61,7 +61,6 @@
             <field name="name">Maquinaria Industrial Cucurella</field>
             <field eval="[(6, 0, [ref('base.res_partner_category_11')])]" name="category_id"/>
             <field name="machinery_seller">1</field>
-            <field eval="0" name="customer"/>
             <field name="is_company">1</field>
             <field name="street">Calle Mayor</field>
             <field name="city">Talavera de la Reina</field>
@@ -70,7 +69,7 @@
             <field name="email">cucurella@cucurella.com</field>
             <field name="phone">(623)-853-7197</field>
             <field name="website">http://www.cucurella.com</field>
-            <field name="image" type="base64" file="manteni/static/description/cucurella.png"/>
+            <field name="image_1920" type="base64" file="manteni/static/description/cucurella.png"/>
       </record>
 
 
