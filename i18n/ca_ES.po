@@ -6,117 +6,117 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-21 08:23+0000\n"
-"PO-Revision-Date: 2020-02-21 09:55+0100\n"
+"POT-Creation-Date: 2020-02-21 08:22+0000\n"
+"PO-Revision-Date: 2020-02-21 09:52+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
+"Language: ca_ES\n"
 "X-Generator: Poedit 2.0.6\n"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "<strong>Close date</strong>"
-msgstr "<strong>Fecha de cierre</strong>"
+msgstr "<strong>Data de tancament</strong>"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "<strong>Closing text</strong>"
-msgstr "<strong>Comentario de cierre</strong>"
+msgstr "<strong>Text de tancament</strong>"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "<strong>Description</strong>"
-msgstr "<strong>Descripción</strong>"
+msgstr "<strong>Descripció</strong>"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "<strong>Employee:</strong>"
-msgstr "<strong>Empleado:</strong>"
+msgstr "<strong>Empleat</strong>"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "<strong>Maintenance type: </strong>Corrective"
-msgstr "<strong>Tipo de mantenimiento: </strong>Correctivo"
+msgstr "<strong>Tipus de manteniment: </strong>Correctiu"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "<strong>Maintenance type: </strong>Preventive"
-msgstr "<strong>Tipo de mantenimiento: </strong>Preventivo"
+msgstr "<strong>Tipus de manteniment: </strong>Preventiu"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "<strong>Manager's signature</strong>"
-msgstr "<strong>Firma del responsable</strong>"
+msgstr "<strong>Signatura del responsable</strong>"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "<strong>Program: </strong>"
-msgstr "<strong>Gama: </strong>"
+msgstr "<strong>Programa: </strong>"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "<strong>Worker's signature</strong>"
-msgstr "<strong>Firma del trabajador</strong>"
+msgstr "<strong>Signatura del treballador</strong>"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_form
 msgid "Assignation"
-msgstr "Asignación"
+msgstr "Asignació"
 
 #. module: manteni
 #: model:ir.ui.menu,name:manteni.menu_1b
 msgid "Calendar"
-msgstr "Calendario"
+msgstr "Calendari"
 
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_workorder__state__cancelled
 msgid "Cancelled"
-msgstr "Cancelado"
+msgstr "Cancelat"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__city
 msgid "City"
-msgstr "Ciudad"
+msgstr "Ciutat"
 
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_workorder__state__closed
 msgid "Closed"
-msgstr "Cerrado"
+msgstr "Tancat"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__date_end
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_form
 msgid "Closing date"
-msgstr "Fecha de cierre"
+msgstr "Data de tancament"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__closing_info
 msgid "Closing information"
-msgstr "Comentario de cierre"
+msgstr "Informació de tancament"
 
 #. module: manteni
 #: model:manteni.program.instruction,name:manteni.instruction0
 msgid "Comprobacion de continuidad"
-msgstr "Comprobación de continuidad"
+msgstr "Comprovació de continuitat"
 
 #. module: manteni
 #: model:ir.ui.menu,name:manteni.menu_3
 msgid "Config"
-msgstr "Configuración"
+msgstr "Configuració"
 
 #. module: manteni
 #: model:ir.model,name:manteni.model_res_partner
 msgid "Contact"
-msgstr "Contacto"
+msgstr "Contacte"
 
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_workorder__type__corrective
 msgid "Corrective"
-msgstr "Correctivo"
+msgstr "Correctiu"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__create_uid
@@ -124,7 +124,7 @@ msgstr "Correctivo"
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__create_uid
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__create_uid
 msgid "Created by"
-msgstr "Creado por"
+msgstr "Creat per"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__create_date
@@ -132,23 +132,23 @@ msgstr "Creado por"
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__create_date
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__create_date
 msgid "Created on"
-msgstr "Creado en"
+msgstr "Data de creació"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__date_first_maintenance
 msgid "Date First Maintenance"
-msgstr "Primer mantenimiento"
+msgstr "Data del primer manteniment"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__date_begin
 msgid "Date begin"
-msgstr "Fecha de inicio"
+msgstr "Data de començament"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__description
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__description
 msgid "Description"
-msgstr "Descripción"
+msgstr "Descripció"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__display_name
@@ -156,7 +156,7 @@ msgstr "Descripción"
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__display_name
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__display_name
 msgid "Display Name"
-msgstr "Nombre"
+msgstr "Nom a mostrar"
 
 #. module: manteni
 #: model:manteni.workorder,description:manteni.workorder9
@@ -166,37 +166,37 @@ msgstr ""
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__employee_id
 msgid "Employee"
-msgstr "Empleado"
+msgstr "Empleat"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__employee_user_id
 msgid "Employee User"
-msgstr "Usuario del empleado"
+msgstr "Usuari de l'empleat"
 
 #. module: manteni
 #: model:manteni.program.instruction,name:manteni.instruction2
 msgid "Engrasado"
-msgstr ""
+msgstr "Engrasat"
 
 #. module: manteni
 #: model:manteni.program.instruction,description:manteni.instruction2
 msgid "Engrasar todas las juntas"
-msgstr ""
+msgstr "Engrasat les juntes"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_search_view
 msgid "Group By"
-msgstr "Agrupar por"
+msgstr "Agrupar per"
 
 #. module: manteni
 #: model:ir.module.category,description:manteni.module_category_manteni
 msgid "Helps you manage your factory's industrial maintenance"
-msgstr "Ayuda a gestionar el mantenimiento industrial"
+msgstr ""
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__hours_maint
 msgid "Hours till maintenances"
-msgstr "Horas hasta mantenimiento"
+msgstr "Hores fins manteniment"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__id
@@ -204,14 +204,14 @@ msgstr "Horas hasta mantenimiento"
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__id
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: manteni
 #: model:ir.actions.act_window,name:manteni.program_instruction_action_window
 #: model:ir.model.fields,field_description:manteni.field_manteni_program__instruction_ids
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "Instructions"
-msgstr "Instrucciones"
+msgstr "Instruccions"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine____last_update
@@ -219,7 +219,7 @@ msgstr "Instrucciones"
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction____last_update
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder____last_update
 msgid "Last Modified on"
-msgstr "Fecha última modificación"
+msgstr "Data d'última modificació"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__write_uid
@@ -227,7 +227,7 @@ msgstr "Fecha última modificación"
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__write_uid
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__write_uid
 msgid "Last Updated by"
-msgstr "Usuario última actualización"
+msgstr "Última actualització per"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__write_date
@@ -235,76 +235,76 @@ msgstr "Usuario última actualización"
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__write_date
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__write_date
 msgid "Last Updated on"
-msgstr "Fecha última actualización"
+msgstr "Data d'última actualització"
 
 #. module: manteni
 #: model:ir.ui.menu,name:manteni.menu_2_1
 #: model_terms:ir.ui.view,arch_db:manteni.machine_list
 msgid "Machine list"
-msgstr "Lista de equipos"
+msgstr "Llista de màquines"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__name
 msgid "Machine name"
-msgstr "Nombre del equipo"
+msgstr "Nom de la màquina"
 
 #. module: manteni
 #: model:ir.actions.act_window,name:manteni.machine_action_window
 msgid "Machine window"
-msgstr "Máquinas"
+msgstr "Màquinas"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.machine_form
 msgid "Machine's denomination"
-msgstr "Denominación del equipo"
+msgstr "Denominació de la màquina"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_res_partner__machinery_seller
 #: model:ir.model.fields,field_description:manteni.field_res_users__machinery_seller
 msgid "Machinery seller"
-msgstr "Proveedor del equipo"
+msgstr "Venedor de la màquina"
 
 #. module: manteni
 #: model:ir.actions.act_window,name:manteni.action_machinery_seller_form
 #: model:ir.ui.menu,name:manteni.res_partner_menu
 #: model_terms:ir.ui.view,arch_db:manteni.view_res_partner_filter
 msgid "Machinery sellers"
-msgstr "Proveedores de equipos"
+msgstr "Venedors"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__machine_ids
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "Machines"
-msgstr "Máquinas"
+msgstr "Màquines"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_form
 msgid "Machines to repair/revise"
-msgstr "Máquinas a reparar/revisar"
+msgstr "Màquines a revisar/reparar"
 
 #. module: manteni
 #: model:ir.module.category,name:manteni.module_category_manteni
 #: model:ir.ui.menu,name:manteni.menu_root
 #: model_terms:ir.ui.view,arch_db:manteni.view_partner_seller
 msgid "Maintenance"
-msgstr "Mantenimiento"
+msgstr "Manteniment"
 
 #. module: manteni
 #: model:hr.job,name:manteni.job_maintenance_manager
 #: model:res.groups,name:manteni.group_manteni_manager
 msgid "Maintenance Manager"
-msgstr "Responsable de mantenimiento"
+msgstr "Responsable de manteniment"
 
 #. module: manteni
 #: model:hr.job,name:manteni.job_maintenance_officer
 #: model:res.groups,name:manteni.group_manteni_user
 msgid "Maintenance Officer"
-msgstr "Técnico de mantenimiento"
+msgstr "Operari de manteniment"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.program_form
 msgid "Maintenance Programs"
-msgstr "Gamas de mantenimiento"
+msgstr "Programes de manteniment"
 
 #. module: manteni
 #: model:manteni.workorder,description:manteni.workorder1
@@ -312,7 +312,7 @@ msgstr "Gamas de mantenimiento"
 #: model:manteni.workorder,description:manteni.workorder3
 #: model:manteni.workorder,description:manteni.workorder4
 msgid "Mantenimiento ordinario eléctrico"
-msgstr ""
+msgstr "Manteniment ordinari elèctric"
 
 #. module: manteni
 #: model:manteni.workorder,description:manteni.workorder5
@@ -320,55 +320,55 @@ msgstr ""
 #: model:manteni.workorder,description:manteni.workorder7
 #: model:manteni.workorder,description:manteni.workorder8
 msgid "Mantenimiento ordinario mecánico"
-msgstr ""
+msgstr "Manteniment ordinari mecànic"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_program__name
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__name
 msgid "Name"
-msgstr "Nombre"
+msgstr "Nom"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_search_view
 msgid "Name and description"
-msgstr "Nombre y descripción"
+msgstr "Nom i descripció"
 
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_workorder__state__not_started
 msgid "Not started"
-msgstr "Sin comenzar"
+msgstr "No començat"
 
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_machine__state__on_use
 msgid "On use"
-msgstr "En uso"
+msgstr "En ús"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "Open date:"
-msgstr "<strong>Fecha de cierre</strong>"
+msgstr "Data d'apertura"
 
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_workorder__state__opened
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_search_view
 msgid "Opened"
-msgstr "Abierto"
+msgstr "Obert"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__date_begin
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_form
 msgid "Opening date"
-msgstr "Fecha de inicio"
+msgstr "Data d'apertura"
 
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_machine__state__out_order
 msgid "Out of order"
-msgstr "Fuera de servicio"
+msgstr "Fora de servei"
 
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_workorder__type__preventive
 msgid "Preventive"
-msgstr "Preventivo"
+msgstr "Preventiu"
 
 #. module: manteni
 #: model:manteni.workorder,name:manteni.workorder1
@@ -376,7 +376,7 @@ msgstr "Preventivo"
 #: model:manteni.workorder,name:manteni.workorder3
 #: model:manteni.workorder,name:manteni.workorder4
 msgid "Preventivo eléctrico tornos"
-msgstr ""
+msgstr "Preventiu elèctric tornos"
 
 #. module: manteni
 #: model:manteni.workorder,name:manteni.workorder5
@@ -384,29 +384,29 @@ msgstr ""
 #: model:manteni.workorder,name:manteni.workorder7
 #: model:manteni.workorder,name:manteni.workorder8
 msgid "Preventivo mecánico tornos"
-msgstr ""
+msgstr "Preventiu mecànic tornos"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__program_id
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__program_id
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_search_view
 msgid "Program"
-msgstr "Gama"
+msgstr "Ordre"
 
 #. module: manteni
 #: model:ir.ui.menu,name:manteni.menu_2_2
 msgid "Program list"
-msgstr "Gamas"
+msgstr "Llista d'ordres"
 
 #. module: manteni
 #: model:ir.actions.act_window,name:manteni.program_action_window
 msgid "Programs"
-msgstr "Gamas"
+msgstr "Ordres de manteniment"
 
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_machine__state__repairing
 msgid "Repairing"
-msgstr "En reparación"
+msgstr "En reparació"
 
 #. module: manteni
 #: model:manteni.workorder,name:manteni.workorder9
@@ -431,83 +431,83 @@ msgstr ""
 #. module: manteni
 #: model:ir.model.constraint,message:manteni.constraint_manteni_machine_serial_uniq
 msgid "Serial code already exists !"
-msgstr "El número de serie ya existe"
+msgstr "El serial code ja existeix"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__serial
 msgid "Serial no"
-msgstr "Número de serie"
+msgstr "Nombre de sèrie"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_calendar
 msgid "Session Calendar"
-msgstr "Calendario"
+msgstr "Calendari de sessions"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__state
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__state
 msgid "State"
-msgstr "Estado"
+msgstr "Estat"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__suplier_id
 msgid "Suplier"
-msgstr "Proveedor"
+msgstr "Proveïdor"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__name
 msgid "Title"
-msgstr "Título"
+msgstr "Títol"
 
 #. module: manteni
 #: model:ir.model.constraint,message:manteni.constraint_manteni_machine_name_uniq
 msgid "Title name already exists !"
-msgstr "El nombre ya existe"
+msgstr "El títol ja existeix!"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__type
 msgid "Type of maintenance"
-msgstr "Tipo de mantenimiento"
+msgstr "Tipus de manteniment"
 
 #. module: manteni
 #: model:ir.actions.act_window,name:manteni.workorder_action_window
 msgid "Work orders"
-msgstr "Órdenes de trabajo"
+msgstr "Ordres de treball"
 
 #. module: manteni
 #: model:ir.actions.act_window,name:manteni.workorder_calendar_action_window
 msgid "Work orders calendar"
-msgstr "Calendario de órdenes de trabajo"
+msgstr "Calendari d'ordres de treball"
 
 #. module: manteni
 #: model:ir.actions.report,name:manteni.report_workorder
 msgid "Workorder Report"
-msgstr "Informe para órdenes de trabajo"
+msgstr "Ordre de treball"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_form
 msgid "Workorder info"
-msgstr "Información sobre la orden de trabajo"
+msgstr "Informació de l'ordre de treball"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_form
 msgid "Workorder name"
-msgstr "Nombre de la orden de trabajo"
+msgstr "Nom de l'ordre de treball"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "Workorder no:"
-msgstr "Número de la orden de trabajo"
+msgstr "Ordre de treball no"
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.report_workorder_view
 msgid "Workorder:"
-msgstr "Orden de trabajo"
+msgstr "Ordre de treball:"
 
 #. module: manteni
 #: model:ir.ui.menu,name:manteni.menu_1a
 msgid "Workorders"
-msgstr "Órdenes de trabajo"
+msgstr "Ordres de treball"
 
 #. module: manteni
 #: model:ir.model,name:manteni.model_manteni_machine

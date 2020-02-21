@@ -30,7 +30,6 @@ class Program(models.Model):
     _name = 'manteni.program'
     
     name = fields.Char(string='Name', size=64, required=True)
-    machine_ids = fields.Many2many('manteni.machine', string='Associated machines')
     instruction_ids = fields.One2many('manteni.program.instruction', 'program_id', string='Instructions')
     
 class ProgramInstruction(models.Model):

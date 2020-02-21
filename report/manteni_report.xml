@@ -39,15 +39,32 @@
                         <t t-if="doc.type == 'preventive'">
                             <p><strong>Maintenance type: </strong>Preventive</p>
                             <p><strong>Program: </strong><span t-field="doc.program_id"/></p>
+                            <table class="table">
+                            <thead>
+                                <tr>
+                                        <th>Instructions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr t-foreach="doc.program_id.instruction_ids" t-as="instruction">
+                                    <td><span t-field="instruction.name"/></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                         </t>
                         <t t-else=""><p><strong>Maintenance type: </strong>Corrective</p></t>
-
-                        <p>
-                            <strong>Employee:</strong>
-                            <span t-field="doc.employee_id"/>
-                        </p>
                    </div>
+
                </div>
+                <div class="row mt3 mb3">
+                    <div class="col">
+                    <p>
+                       <strong>Employee:</strong>
+                       <span t-field="doc.employee_id"/>
+                    </p>
+                    </div>
+                </div>
                <div class="row mt32 mb32">
                    <div class="col-12">
                         <p><strong>Description</strong></p>
