@@ -62,7 +62,6 @@ class Workorder(models.Model):
         if self.state == 'closed':
             self.date_end=date.today()
 
-
     @api.onchange('employee_id')
     def _onchange_employee_id(self):
         self.employee_user_id=self.employee_id.resource_id.user_id
