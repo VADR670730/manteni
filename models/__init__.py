@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 
-from . import manteni
+from . import models
 from . import partner

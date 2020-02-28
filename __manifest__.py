@@ -27,7 +27,7 @@
         'security/security.xml',
         'security/ir.model.access.csv',
         'views/partner.xml',
-        'views/manteni.xml',
+        'views/views.xml',
         'views/templates.xml',
         'report/manteni_report.xml',
         'data/data.xml',
@@ -36,4 +36,6 @@
     'demo': [
         'demo/demo.xml',
     ],
+    'installable': True,
+    'application': True,
 }

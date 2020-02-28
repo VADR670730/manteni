@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-21 08:22+0000\n"
-"PO-Revision-Date: 2020-02-21 09:52+0100\n"
+"POT-Creation-Date: 2020-02-28 10:26+0000\n"
+"PO-Revision-Date: 2020-02-28 11:36+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -63,6 +63,11 @@ msgid "<strong>Worker's signature</strong>"
 msgstr "<strong>Signatura del treballador</strong>"
 
 #. module: manteni
+#: model:ir.model.fields,field_description:manteni.field_manteni_machine__active
+msgid "Active"
+msgstr "Actiu"
+
+#. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_form
 msgid "Assignation"
 msgstr "Asignació"
@@ -75,7 +80,7 @@ msgstr "Calendari"
 #. module: manteni
 #: model:ir.model.fields.selection,name:manteni.selection__manteni_workorder__state__cancelled
 msgid "Cancelled"
-msgstr "Cancelat"
+msgstr "Cancel·lat"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__city
@@ -100,8 +105,8 @@ msgstr "Informació de tancament"
 
 #. module: manteni
 #: model:manteni.program.instruction,name:manteni.instruction0
-msgid "Comprobacion de continuidad"
-msgstr "Comprovació de continuitat"
+msgid "Comprobació de continuitat"
+msgstr "Comprovació de continuïtat"
 
 #. module: manteni
 #: model:ir.ui.menu,name:manteni.menu_3
@@ -160,7 +165,7 @@ msgstr "Nom a mostrar"
 
 #. module: manteni
 #: model:manteni.workorder,description:manteni.workorder9
-msgid "El torno 4 hace ruido al moverse, parece que tiene un rodamiento roto."
+msgid "El torno 4 fa soroll al moure's, sembla ser què té un rodament trencat."
 msgstr ""
 
 #. module: manteni
@@ -174,14 +179,14 @@ msgid "Employee User"
 msgstr "Usuari de l'empleat"
 
 #. module: manteni
-#: model:manteni.program.instruction,name:manteni.instruction2
-msgid "Engrasado"
-msgstr "Engrasat"
+#: model:manteni.program.instruction,description:manteni.instruction2
+msgid "Engrasar totes les juntes"
+msgstr ""
 
 #. module: manteni
-#: model:manteni.program.instruction,description:manteni.instruction2
-msgid "Engrasar todas las juntas"
-msgstr "Engrasat les juntes"
+#: model:manteni.program.instruction,name:manteni.instruction2
+msgid "Engrasat"
+msgstr ""
 
 #. module: manteni
 #: model_terms:ir.ui.view,arch_db:manteni.workorder_search_view
@@ -204,7 +209,7 @@ msgstr "Hores fins manteniment"
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__id
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: manteni
 #: model:ir.actions.act_window,name:manteni.program_instruction_action_window
@@ -311,16 +316,16 @@ msgstr "Programes de manteniment"
 #: model:manteni.workorder,description:manteni.workorder2
 #: model:manteni.workorder,description:manteni.workorder3
 #: model:manteni.workorder,description:manteni.workorder4
-msgid "Mantenimiento ordinario eléctrico"
-msgstr "Manteniment ordinari elèctric"
+msgid "Manteniment ordinari elèctric"
+msgstr ""
 
 #. module: manteni
 #: model:manteni.workorder,description:manteni.workorder5
 #: model:manteni.workorder,description:manteni.workorder6
 #: model:manteni.workorder,description:manteni.workorder7
 #: model:manteni.workorder,description:manteni.workorder8
-msgid "Mantenimiento ordinario mecánico"
-msgstr "Manteniment ordinari mecànic"
+msgid "Manteniment ordinari mecànic"
+msgstr ""
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_program__name
@@ -366,25 +371,25 @@ msgid "Out of order"
 msgstr "Fora de servei"
 
 #. module: manteni
-#: model:ir.model.fields.selection,name:manteni.selection__manteni_workorder__type__preventive
-msgid "Preventive"
-msgstr "Preventiu"
-
-#. module: manteni
 #: model:manteni.workorder,name:manteni.workorder1
 #: model:manteni.workorder,name:manteni.workorder2
 #: model:manteni.workorder,name:manteni.workorder3
 #: model:manteni.workorder,name:manteni.workorder4
-msgid "Preventivo eléctrico tornos"
-msgstr "Preventiu elèctric tornos"
+msgid "Preventiu elèctric tornos"
+msgstr ""
 
 #. module: manteni
 #: model:manteni.workorder,name:manteni.workorder5
 #: model:manteni.workorder,name:manteni.workorder6
 #: model:manteni.workorder,name:manteni.workorder7
 #: model:manteni.workorder,name:manteni.workorder8
-msgid "Preventivo mecánico tornos"
-msgstr "Preventiu mecànic tornos"
+msgid "Preventiu mecànic tornos"
+msgstr ""
+
+#. module: manteni
+#: model:ir.model.fields.selection,name:manteni.selection__manteni_workorder__type__preventive
+msgid "Preventive"
+msgstr "Preventiu"
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_program_instruction__program_id
@@ -415,23 +420,23 @@ msgstr ""
 
 #. module: manteni
 #: model:manteni.program.instruction,description:manteni.instruction0
-msgid "Revisar la continuidad con un tester"
+msgid "Revisar la continuitat amb un tester"
 msgstr ""
 
 #. module: manteni
 #: model:manteni.program.instruction,description:manteni.instruction1
-msgid "Revisar si los fusibles funcionan"
+msgid "Revisar si els fusibles funcionen"
 msgstr ""
 
 #. module: manteni
 #: model:manteni.program.instruction,name:manteni.instruction1
-msgid "Revision fusibles"
+msgid "Revisió fusibles"
 msgstr ""
 
 #. module: manteni
 #: model:ir.model.constraint,message:manteni.constraint_manteni_machine_serial_uniq
 msgid "Serial code already exists !"
-msgstr "El serial code ja existeix"
+msgstr ""
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_machine__serial
@@ -462,7 +467,7 @@ msgstr "Títol"
 #. module: manteni
 #: model:ir.model.constraint,message:manteni.constraint_manteni_machine_name_uniq
 msgid "Title name already exists !"
-msgstr "El títol ja existeix!"
+msgstr ""
 
 #. module: manteni
 #: model:ir.model.fields,field_description:manteni.field_manteni_workorder__type

@@ -5,7 +5,7 @@ from datetime import date, timedelta
 
 
 class Machine(models.Model):
-    # Maquinas objeto del mantenimiento"""
+    # Machines
     _name = 'manteni.machine'
 
     name = fields.Char(size=32, string='Machine name', index=True)
@@ -17,6 +17,7 @@ class Machine(models.Model):
                              string='State', default='on_use')
     city = fields.Char(related='suplier_id.city', store=False)
     hours_maint = fields.Integer(string='Hours till maintenances')
+    active = fields.Boolean('Active', default=True)
 
     _sql_constraints = [('name_uniq', 'unique (name)', "Title name already exists !"), ('serial_uniq', 'unique (serial)', "Serial code already exists !")]
 
@@ -26,14 +27,14 @@ class Machine(models.Model):
             record.date_first_maintenance = fecha + timedelta(hours=record.hours_maint)
 
 class Program(models.Model):
-    #Normas de mantenimiento, conjunto de medidas para el mantenimiento de una parte determinada"""
+    # Maintenance programs, conjunt of rules.
     _name = 'manteni.program'
     
     name = fields.Char(string='Name', size=64, required=True)
     instruction_ids = fields.One2many('manteni.program.instruction', 'program_id', string='Instructions')
     
 class ProgramInstruction(models.Model):
-    #Reglas de cada norma. Una regla puede pertenecer a varias normas"""
+    # Rules being part of a program
     _name = 'manteni.program.instruction'
     
     name = fields.Char(string='Name', size=64, required=True, translate=True)
@@ -41,7 +42,7 @@ class ProgramInstruction(models.Model):
     program_id = fields.Many2one('manteni.program', string='Program')
 
 class Workorder(models.Model):
-    # Orden de trabajo para un trabajador concreto, repara una o varias maquinas"""
+    # Workorder to mantain/repair one of more machines
     _name = 'manteni.workorder'
 
     name = fields.Char('Title', size=64, required=True, translate=True)
