@@ -65,12 +65,14 @@
         <field name="type">form</field>
         <field name="arch" type="xml">
             <form string="Maintenance Programs">
-                <group>
-                  <field name="name" />
-                </group>
-                <group>
-                  <field name="instruction_ids" colspan="4" />
-                </group>
+                <sheet>
+                    <group>
+                      <field name="name" />
+                    </group>
+                    <group>
+                      <field name="instruction_ids" colspan="4" />
+                    </group>
+                </sheet>
             </form>
         </field>
     </record>
@@ -101,11 +103,13 @@
         <field name="type">form</field>
         <field name="arch" type="xml">
             <form string="manteni.program.instruction">
-                <group>
-                  <field name="name" />
-                  <field name="description" colspan="4" />
-                  <field name="program_id" invisible="1" />
-                </group>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="description" colspan="4" />
+                        <field name="program_id" invisible="1" />
+                    </group>
+                </sheet>
             </form>
         </field>
     </record>
@@ -136,34 +140,36 @@
         <field name="type">form</field>
         <field name="arch" type="xml">
             <form string="manteni.workorder">
-                <div class="oe_title">
-                    <label for="name" string="Workorder name" class="oe_edit_only"/>
-                        <h1>
-                         <field name="name" modifiers="{'required': true}"/>
-                        </h1>
-                </div>
-                <group>
-                    <group string="Workorder info">
-                        <field name="state" />
-                        <field name="date_begin" string="Opening date"/>
-                        <field name="date_end" string="Closing date" attrs="{'invisible':[('state','!=', 'closed')]}"/>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" string="Workorder name" class="oe_edit_only"/>
+                            <h1>
+                             <field name="name" modifiers="{'required': true}"/>
+                            </h1>
+                    </div>
+                    <group>
+                        <group string="Workorder info">
+                            <field name="state" />
+                            <field name="date_begin" string="Opening date"/>
+                            <field name="date_end" string="Closing date" attrs="{'invisible':[('state','!=', 'closed')]}"/>
+                        </group>
+                        <group string="Assignation">
+                            <field name="employee_id"  />
+                            <field name="employee_user_id" invisible="1"/>
+                            <field name="type" />
+                            <field name="program_id" attrs="{'invisible':[('type', '=', 'corrective')]}"/>
+                        </group>
                     </group>
-                    <group string="Assignation">
-                        <field name="employee_id"  />
-                        <field name="employee_user_id" invisible="1"/>
-                        <field name="type" />
-                        <field name="program_id" attrs="{'invisible':[('type', '=', 'corrective')]}"/>
+                    <group>
+                          <field name="description" />
                     </group>
-                </group>
-                <group>
-                      <field name="description" />
-                </group>
-                <group string="Machines to repair/revise">
-                   <field name="machine_ids"  />
-                </group>
-                <group>
-                    <field name="closing_info" attrs="{'invisible':[('state','!=', 'closed')]}"/>
-                </group>
+                    <group string="Machines to repair/revise">
+                       <field name="machine_ids"  />
+                    </group>
+                    <group>
+                        <field name="closing_info" attrs="{'invisible':[('state','!=', 'closed')]}"/>
+                    </group>
+                </sheet>
             </form>
         </field>
     </record>
