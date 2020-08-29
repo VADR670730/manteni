@@ -159,7 +159,7 @@
 
         <!-- Workorders -->
         <record id="workorder1" model="manteni.workorder">
-            <field name="date_begin">2017-05-01</field>
+            <field name="date_begin" eval="datetime.today()"/>
             <field name="description">Manteniment ordinari elèctric</field>
             <field name="employee_id" ref="employee_paco"/>
             <field name="employee_user_id" ref="user_paco" />
@@ -170,7 +170,7 @@
             <field name="type">preventive</field>
         </record>
         <record id="workorder2" model="manteni.workorder">
-            <field name="date_begin">2017-06-01</field>
+            <field name="date_begin" eval="datetime.today()-timedelta(days=1)"/>
             <field name="description">Manteniment ordinari elèctric</field>
             <field name="employee_id" ref="employee_paco"/>
             <field name="employee_user_id" ref="user_paco" />
@@ -181,7 +181,7 @@
             <field name="type">preventive</field>
         </record>
         <record id="workorder3" model="manteni.workorder">
-            <field name="date_begin">2017-07-01</field>
+            <field name="date_begin" eval="datetime.today()-timedelta(days=2)"/>
             <field name="description">Manteniment ordinari elèctric</field>
             <field name="employee_id" ref="employee_paco"/>
             <field name="employee_user_id" ref="user_paco" />
@@ -192,7 +192,7 @@
             <field name="type">preventive</field>
         </record>
         <record id="workorder4" model="manteni.workorder">
-            <field name="date_begin">2017-08-01</field>
+            <field name="date_begin" eval="datetime.today()-timedelta(days=3)"/>
             <field name="description">Manteniment ordinari elèctric</field>
             <field name="employee_id" ref="employee_paco"/>
             <field name="employee_user_id" ref="user_paco" />
@@ -203,7 +203,7 @@
             <field name="type">preventive</field>
         </record>
         <record id="workorder5" model="manteni.workorder">
-            <field name="date_begin">2017-05-01</field>
+            <field name="date_begin" eval="datetime.today()-timedelta(days=4)"/>
             <field name="description">Manteniment ordinari mecànic</field>
             <field name="employee_id" ref="employee_ramiro"/>
             <field name="employee_user_id" ref="user_ramiro" />
@@ -214,7 +214,7 @@
             <field name="type">preventive</field>
         </record>
         <record id="workorder6" model="manteni.workorder">
-            <field name="date_begin">2017-06-01</field>
+            <field name="date_begin" eval="datetime.today()-timedelta(days=5)"/>
             <field name="description">Manteniment ordinari mecànic</field>
             <field name="employee_id" ref="employee_ramiro"/>
             <field name="employee_user_id" ref="user_ramiro" />
@@ -225,7 +225,7 @@
             <field name="type">preventive</field>
         </record>
         <record id="workorder7" model="manteni.workorder">
-            <field name="date_begin">2017-07-01</field>
+            <field name="date_begin" eval="datetime.today()-timedelta(days=6)"/>
             <field name="description">Manteniment ordinari mecànic</field>
             <field name="employee_id" ref="employee_ramiro"/>
             <field name="employee_user_id" ref="user_ramiro" />
@@ -236,7 +236,7 @@
             <field name="type">preventive</field>
         </record>
         <record id="workorder8" model="manteni.workorder">
-            <field name="date_begin">2017-08-01</field>
+            <field name="date_begin" eval="datetime.today()-timedelta(days=7)"/>
             <field name="description">Manteniment ordinari mecànic</field>
             <field name="employee_id" ref="employee_ramiro"/>
             <field name="employee_user_id" ref="user_ramiro" />
@@ -249,7 +249,7 @@
 
         <record id="workorder9" model="manteni.workorder">
             <field name="name">Reparación torno 4</field>
-            <field name="date_begin">2017-09-01</field>
+            <field name="date_begin" eval="datetime.today()-timedelta(days=1)"/>
             <field name="description">El torno 4 fa soroll al moure's, sembla ser què té un rodament trencat.</field>
             <field name="employee_id" ref="employee_paco"/>
             <field name="employee_user_id" ref="user_paco" />
