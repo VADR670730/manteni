@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
-    <data noupdate="0">
+<odoo>
+    <data noupdate="1">
 
     <record model="ir.module.category" id="module_category_manteni">
         <field name="name">Maintenance</field>
@@ -30,8 +30,6 @@
         <field name="domain_force">[('employee_user_id','=',user.id)]</field>
     </record>
 
-
-
     <record id="view_all_workorders" model="ir.rule">
         <field name="name">Manager views all workorders</field>
         <field name="model_id" ref="model_manteni_workorder"/>
@@ -43,11 +41,5 @@
         <field name="domain_force">[(1,'=',1)]</field>
     </record>
 
- <!-- El usuario por defecto será administrador de biblioteca
-    <record id="base.default_user" model="res.users">
-        <field name="groups_id" eval="[(4,ref('group_manteni_manager'))]"/>
-    </record>-->
-
-
     </data>
-</openerp>
+</odoo>
